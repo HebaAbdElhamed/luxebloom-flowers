@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💐 LuxeBloom - Luxury Floral E-Commerce Platform
 
-## Getting Started
+A modern, visually immersive e-commerce web application dedicated to ordering premium, handcrafted flower bouquets and custom floral arrangements. Built with performance, fluid user experiences, and dynamic customization in mind.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Core Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🏠 Curated Storefront & Navigation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Immersive Hero Sections:** Cinematic landing page featuring high-definition seasonal banners and fluid transitions.
+- **🔥 Bestsellers Hub:** A dedicated showcase highlighting top-rated arrangements and trending collections to drive conversion.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🌸 Dynamic Product Customization (Deep Personalization)
 
-## Learn More
+- **Reactive Pricing Engine:** Instant, live price calculations adapting to bouquet sizes (`Small` / `12 stems`, `Medium` / `18 stems`, `Large` / `24 stems`) and quantities.
+- **Visual Variant Switchers:** Interactive selectors for custom wrap materials (e.g., Ivory Kraft, Blush Pink, Sage Green, Midnight) updating states locally.
+- **Personalized Add-ons:** Built-in form handling for custom greeting card messages attached directly to the checkout payload.
+- **Fluid Image Gallery:** Interactive thumbnail-to-main view state management for zero-lag close-up inspections.
 
-To learn more about Next.js, take a look at the following resources:
+### 🛒 Global State Shopping Cart System
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **React Context Architecture:** Powered by a persistent React Context (`useCart`) ensuring multi-attribute variants (Size + Wrap type + Gift message) are cleanly cataloged.
+- **Asynchronous UX Signals:** Micro-interactions on buttons (e.g., immediate `✓ Added to Cart` UI states) providing robust user feedback loops.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 📱 Responsive & Accessible UI
 
-## Deploy on Vercel
+- Fully optimized mobile-first layout utilizing strict layout grids and Tailwind CSS spacing scales for desktop, tablet, and mobile views.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🛠️ Architecture & Tech Stack
+
+- **Framework:** Next.js (App Router, Client/Server Components separation for SEO optimization)
+- **Language:** TypeScript (Type-safe component interfaces and data objects)
+- **Styling & Design:** Tailwind CSS (Modern token-based layouts with strict hover/active states)
+- **State Management:** React Context API (Seamless shopping cart logic, state propagation, and persistence)
+- **Media Handling:** Optimally scaled assets utilizing `AppImage` components for responsive layout shifts prevention.
+
+---
+
+## ✒️ Developer
+
+Developed with 🤍 by **Heba ElGohary**
+
+[![LinkedIn](https://www.linkedin.com/in/heba-elgohary-a13074167/)](https://www.linkedin.com/in/heba-elgohary-a13074167/)
+[![GitHub](https://github.com/HebaAbdElhamed)](https://github.com/HebaAbdElhamed)
