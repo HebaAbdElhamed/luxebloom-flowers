@@ -1,10 +1,10 @@
 # 💐 LuxeBloom - Luxury Floral E-Commerce Platform
 
 A modern, visually immersive e-commerce web application dedicated to ordering premium, handcrafted flower bouquets and custom floral arrangements. Built with performance, fluid user experiences, and dynamic customization in mind.
+
 <p align="center">
   <img src="./public/hero-banner.png" alt="LuxeBloom Premium Banner" width="100%" max-height="400px" style="border-radius: 12px; object-fit: cover;" />
 </p>
----
 
 ## ✨ Core Features
 
